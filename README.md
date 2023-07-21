@@ -8,7 +8,7 @@ Tree Viewer is a Python command-line tool that allows you to view the contents o
 
 1. Clone the repository to your local machine:
    ```
-   git clone https://github.com/your_username/tree-viewer.git
+   git clone https://github.com/github-1970/tree-viewer.git
    ```
 
 2. Change directory to the project folder:
