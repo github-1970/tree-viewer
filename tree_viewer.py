@@ -50,7 +50,7 @@ def rar_viewer(directory_path):
 
 def main():
     parser = argparse.ArgumentParser(description="Display the directory tree.")
-    parser.add_argument("path", help="Path to the target directory or zip file")
+    parser.add_argument("path", help="Path to the target directory or zip file or rar file")
     args = parser.parse_args()
 
     target_path = args.path
