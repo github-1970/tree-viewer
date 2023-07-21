@@ -83,7 +83,7 @@ Pipfile.lock
 .venv/
 venv/
 ENV/
-sw_env/
+tree_viewer_env/
 
 # Spyder project settings
 .spyderproject
