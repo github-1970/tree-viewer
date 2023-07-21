@@ -1,29 +1,62 @@
-# Project Name
+# Tree Viewer
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Short description of your project.
+Tree Viewer is a Python command-line tool that allows you to view the contents of directories, zip files, and rar files in a tree-like structure. It provides an intuitive way to navigate and explore the directory structure of your files.
 
-## Table of Contents
+## How to Install
 
-- [Project Name](#project-name)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Features](#features)
-  - [Installation](#installation)
+1. Clone the repository to your local machine:
+   ```
+   git clone https://github.com/your_username/tree-viewer.git
+   ```
 
-## Introduction
+2. Change directory to the project folder:
+   ```
+   cd tree-viewer
+   ```
 
-A brief introduction to your project, explaining what it does and why it's useful.
+3. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
+## How to Use
+
+To use Tree Viewer, run the `tree_viewer.py` script from the command line, followed by the path to the target directory or zip/rar file you want to visualize.
+
+Example usage:
+
+1. View the contents of a directory:
+   ```
+   python tree_viewer.py /path/to/directory
+   ```
+
+2. View the contents of a zip file:
+   ```
+   python tree_viewer.py /path/to/zipfile.zip
+   ```
+
+3. View the contents of a rar file:
+   ```
+   python tree_viewer.py /path/to/rarfile.rar
+   ```
+
+If the zip or rar file is encrypted, you will be prompted to enter the password (if required) to access its contents.
 
 ## Features
 
-- Feature 1
-- Feature 2
-- ...
+- Supports displaying the directory tree structure.
+- Handles zip files and rar files, including encrypted ones.
+- User-friendly command-line interface.
+- Easy navigation and exploration of file contents.
 
-## Installation
+## License
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your_username/your_project.git
+This project is licensed under the [MIT License](https://github.com/github-1970/tree-viewer/blob/main/LICENSE).
+
+## Contributing
+
+Contributions to Tree Viewer are welcome! If you find any issues or have suggestions for improvements, please feel free to [open an issue](https://github.com/github-1970/tree-viewer/issues) or submit a pull request.
+
+Happy exploring with Tree Viewer! 🌳👀
