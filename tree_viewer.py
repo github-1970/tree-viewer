@@ -21,7 +21,8 @@ def display_tree(directory_path, indent=''):
             temp_dir = tempfile.mkdtemp()
             try:
                 zip_file.extractall(temp_dir)
-                display_tree(temp_dir)
+                first_dir = os.listdir(temp_dir)[0]
+                display_tree(os.path.join(temp_dir, first_dir))
             finally:
                 shutil.rmtree(temp_dir)
 
