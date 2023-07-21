@@ -19,6 +19,9 @@ def display_tree(directory_path, indent=""):
                 display_tree(file_path, indent + "|  ")
     elif zipfile.is_zipfile(directory_path):
         zip_viewer(directory_path)
+    else:
+        print("Error: The provided path is not a valid directory or zip file.")
+        
 
 def zip_viewer(directory_path):
     with zipfile.ZipFile(directory_path, "r") as zip_file:
